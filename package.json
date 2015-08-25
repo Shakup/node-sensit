@@ -1,0 +1,24 @@
+{
+  "name": "node-sensit",
+  "version": "0.0.1",
+  "description": "Sens'it API library for node.js",
+  "main": "dist/sensit.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shakup/node-sensit.git"
+  },
+  "keywords": [
+    "sensit",
+    "api",
+    "library"
+  ],
+  "author": "Sébastien Decamme <sebastien.decamme@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Shakup/node-sensit/issues"
+  },
+  "homepage": "https://github.com/Shakup/node-sensit#readme"
+}
