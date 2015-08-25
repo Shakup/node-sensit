@@ -6,7 +6,7 @@
 You can install **node-sensit** using [npm](https://www.npmjs.com/):
 
 ```
-npm install node-sensit
+npm install node-sensit --save-dev
 ```
 
 
@@ -26,15 +26,67 @@ var sensit = new Sensit("your_token_here");
 
 ### 3 - Requests
 
-**Get all devices**
+#### Get all devices
+
 ```
 sensit.getAllDevices();
 ```
 
-Exemple
+__Exemple__
+
 ```
 sensit.getAllDevices().then(function (json) {
 	console.log(json);
+}).fail(function (json) {
+	console.log('Error!');
+});
+```
+
+#### Get specific device
+
+```
+sensit.getDevice(id_device);
+```
+
+__Exemple__
+
+```
+sensit.getDevice(1).then(function (json) {
+	console.log(json);
+}).fail(function (json) {
+	console.log('Error!');
+});
+```
+
+#### Get all sensors
+
+```
+sensit.getAllSensors(id_device);
+```
+
+__Exemple__
+
+```
+sensit.getAllSensors(1).then(function (json) {
+	console.log(json);
+}).fail(function (json) {
+	console.log('Error!');
+});
+```
+
+#### Get specific sensor
+
+```
+sensit.getSensor(id_device, id_sensor);
+```
+
+__Exemple__
+
+```
+sensit.getSensor(1, 2).then(function (json) {
+	console.log(json);
+}).fail(function (json) {
+	console.log('Error!');
 });
 ```
 
