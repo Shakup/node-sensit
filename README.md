@@ -12,19 +12,21 @@ npm install node-sensit --save-dev
 
 ## API Documentation
 
-### 1 - Include
+### Include
 
 ```
 var Sensit = require("sensit");
 ```
 
-### 2 - Instanciate
+### Instanciate
 
 ```
 var sensit = new Sensit("your_token_here");
 ```
 
-### 3 - Requests
+### Requests
+
+> For more informations about request responses, read the (official documentation)[https://api.sensit.io/v1/]
 
 #### Get all devices
 
