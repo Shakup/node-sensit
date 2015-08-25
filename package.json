@@ -1,6 +1,6 @@
 {
   "name": "node-sensit",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Simple Sens'it API library for node.js",
   "main": "dist/sensit.js",
   "scripts": {

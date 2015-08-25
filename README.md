@@ -6,7 +6,7 @@
 You can install **node-sensit** using [npm](https://www.npmjs.com/):
 
 ```
-npm install node-sensit --save-dev
+npm install node-sensit
 ```
 
 
