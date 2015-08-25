@@ -26,7 +26,7 @@ var sensit = new Sensit("your_token_here");
 
 ### Requests
 
-> For more informations about request responses, read the (official documentation)[https://api.sensit.io/v1/]
+> For more informations about request responses, read the [official documentation](https://api.sensit.io/v1/)
 
 #### Get all devices
 
